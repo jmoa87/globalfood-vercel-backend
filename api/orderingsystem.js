@@ -8,7 +8,7 @@ module.exports = (req, res) => {
 
   // Verifica la clave de autorización
   const authHeader = req.headers.authorization;
-  if (authHeader !== "e6fIguVkyG5xtT3BYGMI4rfm9iVt24YJ") {
+  if (authHeader !== "kQ6vefGxDHlDGJDplJ") {
     return res.status(401).json({ error: "Unauthorized" });
   }
 
