@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/integration/orderingsystem",
+      "dest": "/api/orderingsystem"
+    },
+    {
+      "src": "/orders",
+      "dest": "/api/orders"
+    }
+  ]
+}
